@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h3 {
+    width: 100%;
+    text-align:center;
+}
+
+h2 {
+    width: 100%;
+    text-align:center;
+}
+
+p {
+    width: 100%;
+    text-align:center;
+}
+
+}
+</style>
+</head>
+<body>
+
+<h2>SDLC - O&M Analytics Use Cases</h2>
+
+<div class="row">
+   <div class="column" class="center">
+<h3>Performance Analysis [Inverters]</h2>
+	<img src="images/Performance_Analysis.jpg" alt="solar inverters" width="400" height="150">
+<p><a href="dashboards/loss-analysis.html" target="_blank"><button>Get Details</button></a>
+  </div>
+
+  <div class="column" class="center">
+    <h3>Power Prediction [DC Power]</h2>
+   <img src="images/Power_Prediction.jpg" alt="solar inverters" width="400" height="150">
+    <p><a href="dashboards/loss-analysis.html" target="_blank"><button>Get Details</button></a>
+  </div>
+
+  <div class="column" class="center">
+    <h3>Loss Analysis[DC to AC]</h3>
+<img src="images/Loss_Analysis.jpg" alt="solar inverters" width="400" height="150">
+    <p><a href="dashboards/loss-analysis.html" target="_blank"><button>Get Details</button></a>
+  </div>
+
+</div>
+<br><br><br>
+<div class="row">
+  <div class="column" class="center">
+    <h3>Weather Impacts [Temperature, Irradiance]</h2>
+<img src="images/Weather_Impacts.jpg" alt="solar inverters" width="400" height="150">
+    <p><a href="dashboards/weather-impacts.html" target="_blank"><button>Get Details</button></a>
+    
+  </div>
+  <div class="column"class="center">
+    <h3>Yield Forecasting [Daily Yield]</h2>
+   <img src="images/Yield_Forecasting.jpg" alt="solar inverters" width="400" height="150">
+    <p><a href="dashboards/weather-impacts.html" target="_blank"><button>Get Details</button></a>
+
+  </div>
+  <div class="column" class="center">
+    <h3>Soiling Prediction [Solar Panels]</h2>
+    <img src="images/Soiling_Prediction.jpg" alt="solar inverters" width="400" height="150">
+    <p><a href="dashboards/weather-impacts.html" target="_blank"><button>Get Details</button></a>
+  </div>
+</div>
+
+</body>
+</html>
+
